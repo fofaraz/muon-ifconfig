@@ -35,13 +35,15 @@ Before running the ifconfig project, ensure you have the following installed on 
 ##Example
 Using curl, you can make a request to the `/` route and retrieve your IP address:
 
-`curl http://localhost:3000`
+`curl http://localhost:3002`
+
+You can also find an instance of ifconfig project on `https://ifconfig.muon.net/`
 
 Sample response:
 ```
 {
   "success": true,
-  "ip_addr": "192.168.1.100"
+  "ip_addr": "5.120.99.120"
 }
 
 ```
