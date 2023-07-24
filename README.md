@@ -2,6 +2,8 @@
 
 This project is a simple Express application built with Node.js that allows you to retrieve your IP address when calling the `/` route.
 
+This project serves as a helpful tool for nodes to discover their own IP addresses. It's important to note that the Muon network operates independently of this project. Additionally, if nodes set their IP addresses in the `.env` file, there is no necessity to call the ifconfig API endpoint to obtain the node's IP.
+
 ##Prerequisites
 Before running the ifconfig project, ensure you have the following installed on your system:
 
